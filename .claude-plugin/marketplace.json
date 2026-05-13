@@ -1,0 +1,17 @@
+{
+  "name": "vibe-features",
+  "owner": {
+    "name": "Andrew Isachenko"
+  },
+  "plugins": [
+    {
+      "name": "feature-pipeline",
+      "source": "./plugins/feature-pipeline",
+      "description": "Multi-agent PM → Business Analyst → Architect → Developer pipeline for feature development. Orchestrates four specialized agents in sequence with Q&A loops between stages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Andrew Isachenko"
+      }
+    }
+  ]
+}

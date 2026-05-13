@@ -1,0 +1,7 @@
+{
+  "name": "feature-pipeline",
+  "description": "Multi-agent PM → Business Analyst → Architect → Developer pipeline for feature development. Orchestrates four specialized agents in sequence with Q&A loops between stages.",
+  "author": {
+    "name": "Andrew Isachenko"
+  }
+}
