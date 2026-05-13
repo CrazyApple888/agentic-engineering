@@ -1,0 +1,33 @@
+{
+  "name": "feature-pipeline",
+  "version": "0.1.0",
+  "description": "Multi-agent PM -> Business Analyst -> Architect -> Developer pipeline for feature development. Orchestrates four specialized agents in sequence with Q&A loops between stages.",
+  "author": {
+    "name": "Andrew Isachenko"
+  },
+  "keywords": [
+    "feature-development",
+    "multi-agent",
+    "product-management",
+    "architecture",
+    "implementation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Feature Pipeline",
+    "shortDescription": "Run a PM, analyst, architect, and developer feature workflow.",
+    "longDescription": "Feature Pipeline orchestrates a four-stage feature development workflow. It creates product, functional, architecture, and implementation documents, with bounded clarification loops between stages before implementation.",
+    "developerName": "Andrew Isachenko",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Run the feature pipeline for this feature.",
+      "Build this feature with PM and analyst stages.",
+      "Use the agent pipeline to implement this change."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
