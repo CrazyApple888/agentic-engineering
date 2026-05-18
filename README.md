@@ -1,6 +1,6 @@
-# Vibe Features
+# Agentic engineering
 
-Vibe Features is a Claude Code and Codex plugin marketplace for feature-development workflows.
+Agentic engineering is a Claude Code and Codex plugin marketplace for feature-development workflows.
 
 ## Plugins
 
