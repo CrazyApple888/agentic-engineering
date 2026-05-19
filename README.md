@@ -19,7 +19,7 @@ See [plugins/feature-pipeline/README.md](plugins/feature-pipeline/README.md) for
 Add this repository as a Claude Code plugin marketplace, then install the plugin:
 
 ```bash
-/plugin marketplace add CrazyApple888/vibe-features
+/plugin marketplace add CrazyApple888/agentic-engineering
 /plugin install feature-pipeline
 ```
 
@@ -28,7 +28,7 @@ Add this repository as a Claude Code plugin marketplace, then install the plugin
 Add this repository as a Codex plugin marketplace:
 
 ```bash
-codex plugin marketplace add CrazyApple888/vibe-features
+codex plugin marketplace add CrazyApple888/agentic-engineering
 ```
 
 Then install `feature-pipeline` from the `Vibe Features` marketplace in the Codex app.
@@ -36,7 +36,7 @@ Then install `feature-pipeline` from the `Vibe Features` marketplace in the Code
 To update the marketplace later:
 
 ```bash
-codex plugin marketplace upgrade vibe-features
+codex plugin marketplace upgrade agentic-engineering
 ```
 
 ## Local Development
@@ -44,8 +44,8 @@ codex plugin marketplace upgrade vibe-features
 Clone the repository and add the local checkout as a marketplace source:
 
 ```bash
-git clone https://github.com/CrazyApple888/vibe-features.git
-codex plugin marketplace add ./vibe-features
+git clone https://github.com/CrazyApple888/agentic-engineering.git
+codex plugin marketplace add ./agentic-engineering
 ```
 
 Marketplace metadata is stored in:
